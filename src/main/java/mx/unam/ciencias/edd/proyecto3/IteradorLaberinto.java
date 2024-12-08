@@ -21,7 +21,7 @@ public class IteradorLaberinto implements Iterator<Byte> {
         this.generadorLaberinto = generadorLaberinto;
     }
     
-    private GeneradorLaberinto generadorLaberinto= new GeneradorLaberinto();
+    private GeneradorLaberinto generadorLaberinto= new GeneradorLaberinto(0, width, height);
     IteradorLaberinto iterador = new IteradorLaberinto(generadorLaberinto);
 
     /**

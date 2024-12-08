@@ -23,6 +23,9 @@ public class LaberintoSVG {
     
 
     // Constructor
+    public LaberintoSVG(GeneradorLaberinto generadorLaberinto) {
+        this.generadorLaberinto = generadorLaberinto;
+    }
     
     private GeneradorLaberinto generadorLaberinto;
 
