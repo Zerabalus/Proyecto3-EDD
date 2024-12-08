@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="7" failures="0" name="mx.unam.ciencias.edd.test.TestPila" time="0.008" errors="0" skipped="0">
+<testsuite tests="7" failures="0" name="mx.unam.ciencias.edd.test.TestPila" time="0.002" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="17.0.13+11-Debian-2deb12u1"/>
@@ -59,10 +59,10 @@
     <property name="sun.stdout.encoding" value="UTF-8"/>
   </properties>
   <testcase classname="mx.unam.ciencias.edd.test.TestPila" name="testEsVacia" time="0.001"/>
-  <testcase classname="mx.unam.ciencias.edd.test.TestPila" name="testMete" time="0.001"/>
-  <testcase classname="mx.unam.ciencias.edd.test.TestPila" name="testMira" time="0.001"/>
+  <testcase classname="mx.unam.ciencias.edd.test.TestPila" name="testMete" time="0"/>
+  <testcase classname="mx.unam.ciencias.edd.test.TestPila" name="testMira" time="0"/>
   <testcase classname="mx.unam.ciencias.edd.test.TestPila" name="testSaca" time="0.001"/>
-  <testcase classname="mx.unam.ciencias.edd.test.TestPila" name="testToString" time="0.004"/>
+  <testcase classname="mx.unam.ciencias.edd.test.TestPila" name="testToString" time="0"/>
   <testcase classname="mx.unam.ciencias.edd.test.TestPila" name="testEquals" time="0"/>
   <testcase classname="mx.unam.ciencias.edd.test.TestPila" name="testConstructor" time="0"/>
 </testsuite>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="33" failures="0" name="mx.unam.ciencias.edd.test.TestArbolBinarioOrdenado" time="0.044" errors="0" skipped="0">
+<testsuite tests="33" failures="0" name="mx.unam.ciencias.edd.test.TestArbolBinarioOrdenado" time="0.036" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="17.0.13+11-Debian-2deb12u1"/>
@@ -58,37 +58,37 @@
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.stdout.encoding" value="UTF-8"/>
   </properties>
-  <testcase classname="mx.unam.ciencias.edd.test.TestArbolBinarioOrdenado" name="testElimina" time="0.002"/>
+  <testcase classname="mx.unam.ciencias.edd.test.TestArbolBinarioOrdenado" name="testElimina" time="0.001"/>
   <testcase classname="mx.unam.ciencias.edd.test.TestArbolBinarioOrdenado" name="testEsVacio" time="0.001"/>
-  <testcase classname="mx.unam.ciencias.edd.test.TestArbolBinarioOrdenado" name="testIteradorHasNext" time="0.002"/>
+  <testcase classname="mx.unam.ciencias.edd.test.TestArbolBinarioOrdenado" name="testIteradorHasNext" time="0.001"/>
   <testcase classname="mx.unam.ciencias.edd.test.TestArbolBinarioOrdenado" name="testDfsPreOrder" time="0.002"/>
-  <testcase classname="mx.unam.ciencias.edd.test.TestArbolBinarioOrdenado" name="testBusca" time="0.002"/>
+  <testcase classname="mx.unam.ciencias.edd.test.TestArbolBinarioOrdenado" name="testBusca" time="0.001"/>
   <testcase classname="mx.unam.ciencias.edd.test.TestArbolBinarioOrdenado" name="testVerticeAltura" time="0.001"/>
   <testcase classname="mx.unam.ciencias.edd.test.TestArbolBinarioOrdenado" name="testRaiz" time="0.001"/>
-  <testcase classname="mx.unam.ciencias.edd.test.TestArbolBinarioOrdenado" name="testToString" time="0.003"/>
-  <testcase classname="mx.unam.ciencias.edd.test.TestArbolBinarioOrdenado" name="testVerticeEquals" time="0"/>
+  <testcase classname="mx.unam.ciencias.edd.test.TestArbolBinarioOrdenado" name="testToString" time="0.001"/>
+  <testcase classname="mx.unam.ciencias.edd.test.TestArbolBinarioOrdenado" name="testVerticeEquals" time="0.001"/>
   <testcase classname="mx.unam.ciencias.edd.test.TestArbolBinarioOrdenado" name="testVerticeToString" time="0.001"/>
   <testcase classname="mx.unam.ciencias.edd.test.TestArbolBinarioOrdenado" name="testDfsInOrder" time="0.001"/>
   <testcase classname="mx.unam.ciencias.edd.test.TestArbolBinarioOrdenado" name="testVerticeGet" time="0.001"/>
   <testcase classname="mx.unam.ciencias.edd.test.TestArbolBinarioOrdenado" name="testVerticeIzquierdo" time="0.001"/>
   <testcase classname="mx.unam.ciencias.edd.test.TestArbolBinarioOrdenado" name="testGetUltimoVerticeAgregado" time="0.001"/>
   <testcase classname="mx.unam.ciencias.edd.test.TestArbolBinarioOrdenado" name="testVerticeProfundidad" time="0.001"/>
-  <testcase classname="mx.unam.ciencias.edd.test.TestArbolBinarioOrdenado" name="testContiene" time="0.002"/>
-  <testcase classname="mx.unam.ciencias.edd.test.TestArbolBinarioOrdenado" name="testIteradorNext" time="0.001"/>
-  <testcase classname="mx.unam.ciencias.edd.test.TestArbolBinarioOrdenado" name="testVerticeDerecho" time="0"/>
+  <testcase classname="mx.unam.ciencias.edd.test.TestArbolBinarioOrdenado" name="testContiene" time="0.001"/>
+  <testcase classname="mx.unam.ciencias.edd.test.TestArbolBinarioOrdenado" name="testIteradorNext" time="0.002"/>
+  <testcase classname="mx.unam.ciencias.edd.test.TestArbolBinarioOrdenado" name="testVerticeDerecho" time="0.001"/>
   <testcase classname="mx.unam.ciencias.edd.test.TestArbolBinarioOrdenado" name="testGiraDerecha" time="0.001"/>
   <testcase classname="mx.unam.ciencias.edd.test.TestArbolBinarioOrdenado" name="testGetElementos" time="0.001"/>
   <testcase classname="mx.unam.ciencias.edd.test.TestArbolBinarioOrdenado" name="testDfsPostOrder" time="0.001"/>
-  <testcase classname="mx.unam.ciencias.edd.test.TestArbolBinarioOrdenado" name="testVerticePadre" time="0.002"/>
+  <testcase classname="mx.unam.ciencias.edd.test.TestArbolBinarioOrdenado" name="testVerticePadre" time="0.001"/>
   <testcase classname="mx.unam.ciencias.edd.test.TestArbolBinarioOrdenado" name="testAgrega" time="0.001"/>
-  <testcase classname="mx.unam.ciencias.edd.test.TestArbolBinarioOrdenado" name="testAltura" time="0.002"/>
-  <testcase classname="mx.unam.ciencias.edd.test.TestArbolBinarioOrdenado" name="testVerticeHayDerecho" time="0.001"/>
-  <testcase classname="mx.unam.ciencias.edd.test.TestArbolBinarioOrdenado" name="testEquals" time="0.006"/>
-  <testcase classname="mx.unam.ciencias.edd.test.TestArbolBinarioOrdenado" name="testVerticeHayPadre" time="0.001"/>
-  <testcase classname="mx.unam.ciencias.edd.test.TestArbolBinarioOrdenado" name="testLimpia" time="0.001"/>
-  <testcase classname="mx.unam.ciencias.edd.test.TestArbolBinarioOrdenado" name="testGiraIzquierda" time="0"/>
-  <testcase classname="mx.unam.ciencias.edd.test.TestArbolBinarioOrdenado" name="testVerticeHayIzquierdo" time="0.001"/>
+  <testcase classname="mx.unam.ciencias.edd.test.TestArbolBinarioOrdenado" name="testAltura" time="0.001"/>
+  <testcase classname="mx.unam.ciencias.edd.test.TestArbolBinarioOrdenado" name="testVerticeHayDerecho" time="0"/>
+  <testcase classname="mx.unam.ciencias.edd.test.TestArbolBinarioOrdenado" name="testEquals" time="0.001"/>
+  <testcase classname="mx.unam.ciencias.edd.test.TestArbolBinarioOrdenado" name="testVerticeHayPadre" time="0"/>
+  <testcase classname="mx.unam.ciencias.edd.test.TestArbolBinarioOrdenado" name="testLimpia" time="0.006"/>
+  <testcase classname="mx.unam.ciencias.edd.test.TestArbolBinarioOrdenado" name="testGiraIzquierda" time="0.001"/>
+  <testcase classname="mx.unam.ciencias.edd.test.TestArbolBinarioOrdenado" name="testVerticeHayIzquierdo" time="0"/>
   <testcase classname="mx.unam.ciencias.edd.test.TestArbolBinarioOrdenado" name="testIterator" time="0.001"/>
   <testcase classname="mx.unam.ciencias.edd.test.TestArbolBinarioOrdenado" name="testConstructorColeccion" time="0.001"/>
-  <testcase classname="mx.unam.ciencias.edd.test.TestArbolBinarioOrdenado" name="testConstructor" time="0.001"/>
+  <testcase classname="mx.unam.ciencias.edd.test.TestArbolBinarioOrdenado" name="testConstructor" time="0"/>
 </testsuite>

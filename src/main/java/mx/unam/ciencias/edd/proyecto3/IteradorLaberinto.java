@@ -15,9 +15,15 @@ public class IteradorLaberinto implements Iterator<Byte> {
     private int j = 0;
     private byte width;
     private byte height;
+
     
-    private GeneradorLaberinto generadorLaberinto;
+    public IteradorLaberinto(GeneradorLaberinto generadorLaberinto) {
+        this.generadorLaberinto = generadorLaberinto;
+    }
     
+    private GeneradorLaberinto generadorLaberinto= new GeneradorLaberinto(semilla, w, h);
+    IteradorLaberinto iterador = new IteradorLaberinto(generadorLaberinto);
+
     /**
      * Crea un iterador para recorrer el laberinto.
      * @param width el ancho del laberinto.
@@ -44,11 +50,6 @@ public class IteradorLaberinto implements Iterator<Byte> {
             i++;
         }
         return Byte.valueOf(e); // Devuelve el valor como un objeto Byte
-    }
-    
-
-    public Iterator<Byte> iterator() {
-        return new Iterador();
     }
 
 }

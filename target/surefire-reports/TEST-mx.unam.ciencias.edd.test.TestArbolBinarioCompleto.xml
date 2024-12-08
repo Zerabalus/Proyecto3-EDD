@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="28" failures="0" name="mx.unam.ciencias.edd.test.TestArbolBinarioCompleto" time="0.031" errors="0" skipped="0">
+<testsuite tests="28" failures="0" name="mx.unam.ciencias.edd.test.TestArbolBinarioCompleto" time="0.022" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="17.0.13+11-Debian-2deb12u1"/>
@@ -61,29 +61,29 @@
   <testcase classname="mx.unam.ciencias.edd.test.TestArbolBinarioCompleto" name="testElimina" time="0.004"/>
   <testcase classname="mx.unam.ciencias.edd.test.TestArbolBinarioCompleto" name="testEsVacio" time="0"/>
   <testcase classname="mx.unam.ciencias.edd.test.TestArbolBinarioCompleto" name="testIteradorHasNext" time="0.001"/>
-  <testcase classname="mx.unam.ciencias.edd.test.TestArbolBinarioCompleto" name="testBfs" time="0.002"/>
-  <testcase classname="mx.unam.ciencias.edd.test.TestArbolBinarioCompleto" name="testBusca" time="0.001"/>
-  <testcase classname="mx.unam.ciencias.edd.test.TestArbolBinarioCompleto" name="testVerticeAltura" time="0.003"/>
-  <testcase classname="mx.unam.ciencias.edd.test.TestArbolBinarioCompleto" name="testRaiz" time="0.001"/>
-  <testcase classname="mx.unam.ciencias.edd.test.TestArbolBinarioCompleto" name="testToString" time="0.008"/>
-  <testcase classname="mx.unam.ciencias.edd.test.TestArbolBinarioCompleto" name="testVerticeEquals" time="0.001"/>
-  <testcase classname="mx.unam.ciencias.edd.test.TestArbolBinarioCompleto" name="testVerticeToString" time="0.001"/>
-  <testcase classname="mx.unam.ciencias.edd.test.TestArbolBinarioCompleto" name="testVerticeGet" time="0"/>
+  <testcase classname="mx.unam.ciencias.edd.test.TestArbolBinarioCompleto" name="testBfs" time="0.001"/>
+  <testcase classname="mx.unam.ciencias.edd.test.TestArbolBinarioCompleto" name="testBusca" time="0"/>
+  <testcase classname="mx.unam.ciencias.edd.test.TestArbolBinarioCompleto" name="testVerticeAltura" time="0.001"/>
+  <testcase classname="mx.unam.ciencias.edd.test.TestArbolBinarioCompleto" name="testRaiz" time="0"/>
+  <testcase classname="mx.unam.ciencias.edd.test.TestArbolBinarioCompleto" name="testToString" time="0.005"/>
+  <testcase classname="mx.unam.ciencias.edd.test.TestArbolBinarioCompleto" name="testVerticeEquals" time="0"/>
+  <testcase classname="mx.unam.ciencias.edd.test.TestArbolBinarioCompleto" name="testVerticeToString" time="0"/>
+  <testcase classname="mx.unam.ciencias.edd.test.TestArbolBinarioCompleto" name="testVerticeGet" time="0.001"/>
   <testcase classname="mx.unam.ciencias.edd.test.TestArbolBinarioCompleto" name="testVerticeIzquierdo" time="0.001"/>
   <testcase classname="mx.unam.ciencias.edd.test.TestArbolBinarioCompleto" name="testVerticeProfundidad" time="0.001"/>
-  <testcase classname="mx.unam.ciencias.edd.test.TestArbolBinarioCompleto" name="testContiene" time="0.001"/>
-  <testcase classname="mx.unam.ciencias.edd.test.TestArbolBinarioCompleto" name="testIteradorNext" time="0.001"/>
-  <testcase classname="mx.unam.ciencias.edd.test.TestArbolBinarioCompleto" name="testVerticeDerecho" time="0.001"/>
-  <testcase classname="mx.unam.ciencias.edd.test.TestArbolBinarioCompleto" name="testGetElementos" time="0"/>
-  <testcase classname="mx.unam.ciencias.edd.test.TestArbolBinarioCompleto" name="testVerticePadre" time="0.001"/>
-  <testcase classname="mx.unam.ciencias.edd.test.TestArbolBinarioCompleto" name="testAgrega" time="0"/>
-  <testcase classname="mx.unam.ciencias.edd.test.TestArbolBinarioCompleto" name="testAltura" time="0"/>
+  <testcase classname="mx.unam.ciencias.edd.test.TestArbolBinarioCompleto" name="testContiene" time="0"/>
+  <testcase classname="mx.unam.ciencias.edd.test.TestArbolBinarioCompleto" name="testIteradorNext" time="0"/>
+  <testcase classname="mx.unam.ciencias.edd.test.TestArbolBinarioCompleto" name="testVerticeDerecho" time="0"/>
+  <testcase classname="mx.unam.ciencias.edd.test.TestArbolBinarioCompleto" name="testGetElementos" time="0.001"/>
+  <testcase classname="mx.unam.ciencias.edd.test.TestArbolBinarioCompleto" name="testVerticePadre" time="0"/>
+  <testcase classname="mx.unam.ciencias.edd.test.TestArbolBinarioCompleto" name="testAgrega" time="0.001"/>
+  <testcase classname="mx.unam.ciencias.edd.test.TestArbolBinarioCompleto" name="testAltura" time="0.001"/>
   <testcase classname="mx.unam.ciencias.edd.test.TestArbolBinarioCompleto" name="testVerticeHayDerecho" time="0"/>
-  <testcase classname="mx.unam.ciencias.edd.test.TestArbolBinarioCompleto" name="testEquals" time="0"/>
+  <testcase classname="mx.unam.ciencias.edd.test.TestArbolBinarioCompleto" name="testEquals" time="0.001"/>
   <testcase classname="mx.unam.ciencias.edd.test.TestArbolBinarioCompleto" name="testVerticeHayPadre" time="0"/>
   <testcase classname="mx.unam.ciencias.edd.test.TestArbolBinarioCompleto" name="testLimpia" time="0.001"/>
-  <testcase classname="mx.unam.ciencias.edd.test.TestArbolBinarioCompleto" name="testVerticeHayIzquierdo" time="0.001"/>
-  <testcase classname="mx.unam.ciencias.edd.test.TestArbolBinarioCompleto" name="testIterator" time="0"/>
-  <testcase classname="mx.unam.ciencias.edd.test.TestArbolBinarioCompleto" name="testConstructorColeccion" time="0.001"/>
-  <testcase classname="mx.unam.ciencias.edd.test.TestArbolBinarioCompleto" name="testConstructor" time="0"/>
+  <testcase classname="mx.unam.ciencias.edd.test.TestArbolBinarioCompleto" name="testVerticeHayIzquierdo" time="0"/>
+  <testcase classname="mx.unam.ciencias.edd.test.TestArbolBinarioCompleto" name="testIterator" time="0.001"/>
+  <testcase classname="mx.unam.ciencias.edd.test.TestArbolBinarioCompleto" name="testConstructorColeccion" time="0"/>
+  <testcase classname="mx.unam.ciencias.edd.test.TestArbolBinarioCompleto" name="testConstructor" time="0.001"/>
 </testsuite>

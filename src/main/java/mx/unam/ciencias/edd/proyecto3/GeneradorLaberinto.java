@@ -252,7 +252,7 @@ public class GeneradorLaberinto implements Iterable<Byte> {
     
     @Override
     public Iterator<Byte> iterator() {
-        return new IteradorLaberinto();
+        return new Iterador();
     }
 
 }
