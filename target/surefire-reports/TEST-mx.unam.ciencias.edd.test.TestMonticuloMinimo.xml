@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="16" failures="0" name="mx.unam.ciencias.edd.test.TestMonticuloMinimo" time="0.016" errors="0" skipped="0">
+<testsuite tests="16" failures="0" name="mx.unam.ciencias.edd.test.TestMonticuloMinimo" time="0.021" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="17.0.13+11-Debian-2deb12u1"/>
@@ -59,19 +59,19 @@
     <property name="sun.stdout.encoding" value="UTF-8"/>
   </properties>
   <testcase classname="mx.unam.ciencias.edd.test.TestMonticuloMinimo" name="testElimina" time="0.002"/>
-  <testcase classname="mx.unam.ciencias.edd.test.TestMonticuloMinimo" name="testEsVacio" time="0.001"/>
+  <testcase classname="mx.unam.ciencias.edd.test.TestMonticuloMinimo" name="testEsVacio" time="0"/>
   <testcase classname="mx.unam.ciencias.edd.test.TestMonticuloMinimo" name="testIteradorHasNext" time="0.001"/>
-  <testcase classname="mx.unam.ciencias.edd.test.TestMonticuloMinimo" name="testGet" time="0"/>
-  <testcase classname="mx.unam.ciencias.edd.test.TestMonticuloMinimo" name="testToString" time="0.003"/>
+  <testcase classname="mx.unam.ciencias.edd.test.TestMonticuloMinimo" name="testGet" time="0.001"/>
+  <testcase classname="mx.unam.ciencias.edd.test.TestMonticuloMinimo" name="testToString" time="0.001"/>
   <testcase classname="mx.unam.ciencias.edd.test.TestMonticuloMinimo" name="testHeapSort" time="0.001"/>
   <testcase classname="mx.unam.ciencias.edd.test.TestMonticuloMinimo" name="testEliminaElemento" time="0.002"/>
-  <testcase classname="mx.unam.ciencias.edd.test.TestMonticuloMinimo" name="testContiene" time="0"/>
+  <testcase classname="mx.unam.ciencias.edd.test.TestMonticuloMinimo" name="testContiene" time="0.001"/>
   <testcase classname="mx.unam.ciencias.edd.test.TestMonticuloMinimo" name="testConstructores" time="0.001"/>
   <testcase classname="mx.unam.ciencias.edd.test.TestMonticuloMinimo" name="testIteradorNext" time="0"/>
   <testcase classname="mx.unam.ciencias.edd.test.TestMonticuloMinimo" name="testReordena" time="0.001"/>
-  <testcase classname="mx.unam.ciencias.edd.test.TestMonticuloMinimo" name="testGetElementos" time="0"/>
-  <testcase classname="mx.unam.ciencias.edd.test.TestMonticuloMinimo" name="testAgrega" time="0.002"/>
-  <testcase classname="mx.unam.ciencias.edd.test.TestMonticuloMinimo" name="testEquals" time="0"/>
+  <testcase classname="mx.unam.ciencias.edd.test.TestMonticuloMinimo" name="testGetElementos" time="0.001"/>
+  <testcase classname="mx.unam.ciencias.edd.test.TestMonticuloMinimo" name="testAgrega" time="0.004"/>
+  <testcase classname="mx.unam.ciencias.edd.test.TestMonticuloMinimo" name="testEquals" time="0.001"/>
   <testcase classname="mx.unam.ciencias.edd.test.TestMonticuloMinimo" name="testLimpia" time="0.001"/>
-  <testcase classname="mx.unam.ciencias.edd.test.TestMonticuloMinimo" name="testIterator" time="0.001"/>
+  <testcase classname="mx.unam.ciencias.edd.test.TestMonticuloMinimo" name="testIterator" time="0.003"/>
 </testsuite>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="3" failures="0" name="mx.unam.ciencias.edd.test.TestFabricaDispersores" time="0.005" errors="0" skipped="0">
+<testsuite tests="3" failures="0" name="mx.unam.ciencias.edd.test.TestFabricaDispersores" time="0.004" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="17.0.13+11-Debian-2deb12u1"/>
@@ -60,5 +60,5 @@
   </properties>
   <testcase classname="mx.unam.ciencias.edd.test.TestFabricaDispersores" name="testDispersorCadenaDJB" time="0.002"/>
   <testcase classname="mx.unam.ciencias.edd.test.TestFabricaDispersores" name="testDispersorCadenaXOR" time="0.001"/>
-  <testcase classname="mx.unam.ciencias.edd.test.TestFabricaDispersores" name="testDispersorCadenaBJ" time="0.002"/>
+  <testcase classname="mx.unam.ciencias.edd.test.TestFabricaDispersores" name="testDispersorCadenaBJ" time="0.001"/>
 </testsuite>
