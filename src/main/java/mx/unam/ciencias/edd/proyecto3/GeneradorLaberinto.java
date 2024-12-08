@@ -3,6 +3,7 @@ package mx.unam.ciencias.edd.proyecto3;
 import mx.unam.ciencias.edd.Grafica;
 import mx.unam.ciencias.edd.Lista;
 import mx.unam.ciencias.edd.proyecto3.*;
+import mx.unam.ciencias.edd.proyecto3.IteradorLaberinto;
 
 import java.util.Random;
 import java.util.Iterator;
@@ -17,6 +18,7 @@ public class GeneradorLaberinto implements Iterable<Byte> {
     private int visitadasRandomElementos = 0;
     private int entrada = -1;
     private int salida = -1;
+
 
     public GeneradorLaberinto(long semilla, int w, int h) {
         if (w < 2 || w > 255)
@@ -252,7 +254,7 @@ public class GeneradorLaberinto implements Iterable<Byte> {
     
     @Override
     public Iterator<Byte> iterator() {
-        return new Iterador();
+        return new IteradorLaberinto(this);
     }
 
 }
