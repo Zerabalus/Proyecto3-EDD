@@ -23,8 +23,7 @@ public class LaberintoSVG {
     
 
     // Constructor
-    public LaberintoSVG(GeneradorLaberinto generadorLaberinto) {
-        this.generadorLaberinto = generadorLaberinto;
+    
     private GeneradorLaberinto generadorLaberinto;
 
 
@@ -54,7 +53,7 @@ public class LaberintoSVG {
                 if ((c1 & 0b0010) == 0b0000 && i > 0) {
                     byte c2 = generadorLaberinto.obtenerCasilla((byte) j, (byte) (i - 1));
                     try {
-                        g.conecta(generadorLaberinto.getPar((byte) j, (byte) i),generadorLaberinto.getPar((byte) j, (byte) (i - 1)), valor(c1) + valor(c2) + 1);
+                        g.conecta(generadorLaberinto.getPar((byte) j, (byte) i),generadorLaberinto.getPar((byte) j, (byte) (i - 1)), generadorLaberinto.obtenValor((byte) j, (byte) i) + generadorLaberinto.obtenValor((byte) j, (byte) (i - 1)) + 1);
                     } catch (Exception e) {
 
                     }
